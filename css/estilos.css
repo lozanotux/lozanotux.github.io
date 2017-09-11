@@ -22,6 +22,10 @@ body {
     font-size: 6em;
 }
 
+.muy-grande-m {
+    font-size: 4em;
+}
+
 .grande {
     font-size: 4em; 
 }
@@ -115,6 +119,7 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 
 .main {
     background-color: #444C5C;
+    /*background-image: url("../imgs/bg.jpg");*/
     color: #FFFFFF;
     float: none;
     margin-top: -134px;
@@ -122,6 +127,18 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
     padding: 0;
     top 0;
     height: 100vh;
+}
+
+.main-m {
+    background-color: #444C5C;
+    /*background-image: url("../imgs/bg.jpg");*/
+    color: #FFFFFF;
+    float: none;
+    margin-top: -134px;
+    z-index: -99;
+    padding: 0;
+    top 0;
+    height: 100%;
 }
 
 .sin-espacio-arriba {
@@ -134,6 +151,15 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 
 .margen-compensador {
     padding-top: 2em;
+}
+
+.margen-titulo {
+    padding-top: 1em;
+}
+
+.margen-titulo-m {
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .margen-interlineado {
@@ -152,6 +178,15 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 
 .separador {
     height: 48px;
+}
+
+.avatar {
+    border: 2px solid #FFFFFF;
+	box-shadow: 0px 0px 4px #000000;
+}
+
+.personas-container {
+    padding-top: 0px;
 }
 
 /*****************************
@@ -234,13 +269,46 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 }
 
 /*
+ * PERFILES
+ */
+.juan {
+    
+}
+
+.jonny {
+    
+}
+
+.buy a {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background-color: #45D363;
+    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
+    background-image: -ms-linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
+    background-image: -o-linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
+    background-image: -webkit-linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
+    background-image: -moz-linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 12px;
+    text-align: center;
+    transition: all 100ms ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.buy a:hover {
+     background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.05) );
+}
+
+/*
  * PIE DE PAGINA
  */
 #pie {
     margin-top: 50px;
     background-color: #f2f2f2;
     color: #777;
-    padding: 20px 0 15px 0;
+    padding: 20px 8px 15px 8px;
     font-size: 16px;
     text-align: center;
     width: 100%;

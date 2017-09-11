@@ -2,70 +2,133 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Juan Pablo Lozano</title>
+	<title>J&J Systems</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilo.css">
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-	<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Pacifico" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-	<nav class="se-gris padding-largo text-center">
-		<ul class="sin-lista">
-			<li class="col-md-3 inline-block"><a href="index.html" class="blue">Juan Pablo Lozano</a></li>
-			<li class="col-md-3 inline-block"><a href="contactme.html" class="blue">Contacto</a></li>
-			<li class="col-md-3 inline-block"><a href="index.html" class="blue">Acerca de</a></li>
-		</ul>
-	</nav>
-	<section>
-		<div class="text-center mediano">
-			<h1 class="lobster grande azul">Habilidades</h1>
-			<p class="mediana">Todos las tecnologías son de alto impactico y facil puesta en practica</p>
-			<div class="col-md-3 col-sm-4 inline-block">
-				<article class="animated fadeIn">
-					<h2 class="lobster">Vala</h2>
-					<img src="imgs/vala.png" class="col-xs-5 col-md-5 quitar-float">
-					<p>
-						<strong>Lvl. 2</strong>
-					</p>
-				</article>
-				<br>
-				<article class="animated fadeIn">
-					<h2 class="lobster">SOA 12c</h2>
-					<img src="imgs/soa.png" class="col-xs-5 col-md-5 quitar-float">
-					<p>
-						<strong>Lvl. 3</strong>
-					</p>
-				</article>
-			</div>
-			<div class="col-md-6 col-sm-4 inline-block vete-arriba">
-				<article class="animated fadeIn">
-					<h2 class="lobster">Java 8</h2>
-					<img src="imgs/java.png" class="col-xs-10 col-md-5 quitar-float">
-					<p>
-						<strong>Lvl. 4</strong>
-					</p>
-				</article>
-			</div>
-			<div class="col-md-3 col-sm-4 inline-block">
-				<article class="animated fadeIn">
-					<h2 class="lobster">HTML 5</h2>
-					<img src="imgs/html.png" class="col-xs-5 col-md-5 quitar-float">
-					<p>
-						<strong>Lvl. 4</strong>
-					</p>
-				</article>
-				<br>
-				<article class="animated fadeIn">
-					<h2 class="lobster">CSS 3</h2>
-					<img src="imgs/css.png" class="col-xs-5 col-md-5 quitar-float">
-					<p>
-						<strong>Lvl. 2</strong>
-					</p>
-				</article>
-			</div>
-		</div>	
-	</section>
+<body style="background-color: #444C5C;">
+    <!--MOBILE MENU-->
+    <nav class="navbar navbar-inverse visible-xs" id="mobile-nav">
+      <div class="">
+        <div class="navbar-header">
+            <center>
+                <div class="mobile-header">
+                </div>
+            </center>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a id="activo" href="index.html">J&J Systems</a></li>
+            <li><a href="nosotros.html"><i class="fa fa-users margen-icon" aria-hidden="true"></i> Nosotros</a></li>
+            <li><a href="contacto.html"><i class="fa fa-envelope margen-icon" aria-hidden="true"></i> Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- MENU DESKTOP AND TABLET -->
+    <div class="menu">
+        <nav class="padding-largo text-center visible-sm visible-md visible-lg" id="navegacion">
+            <div class="navegacion a-la-izquierda">
+                <a href="index.html">J&J Systems</a>
+            </div>
+            <ul class="sin-lista a-la-derecha">
+                <li class="inline-block espacio-derecha"><a href="nosotros.html"><i class="fa fa-users margen-icon" aria-hidden="true"></i>
+ Nosotros</a></li>
+                <li class="inline-block"><a href="contacto.html"><i class="fa fa-envelope margen-icon" aria-hidden="true"></i>
+ Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- MAIN DESKTOP -->
+    <div class="main ten-sombra-interna visible-sm visible-md visible-lg">
+        <div class="col-sm-12 col-md-10 center-block quitar-float espacio-arriba text-center personas-container">
+            <h1 class="pacifico muy-grande margen-titulo animated fadeIn">Nosotros</h1>
+                <div class="col-sm-6 juan">
+                    <img src="imgs/juan.png" alt="Juan Pablo Lozano" class="img-circle avatar" width="128">
+                    <h2 class="pacifico">Juan Pablo Lozano</h2>
+                    <p>
+                        Consultor SOA / Desarrollador Web
+                    </p>
+                    <p>
+                        Director Tecnico
+                    </p>
+                </div>
+                <div class="col-sm-6 jonny">
+                    <img src="imgs/jonny.jpg" alt="Jonathan Sierra" class="img-circle avatar" width="128">
+                    <h2 class="pacifico">Jonathan Sierra</h2>
+                    <p>
+                        Programador / Analista Funcional
+                    </p>
+                    <p>
+                        Analista Funcional de Negocios
+                    </p>
+                </div>
+            </div>
+            <div class="buy col-sm-12 text-center">
+                <br>
+                <br>
+                <a href="#pagar"><i class="fa fa-usd" aria-hidden="true"></i> Compranos Una Cerveza</a>
+            </div>
+    </div>
+    <!-- MAIN MOBILE -->
+    <div class="main-m ten-sombra-interna visible-xs">
+        <div class="col-xs-12 center-block quitar-float espacio-arriba text-center personas-container">
+            <h1 class="pacifico muy-grande-m margen-titulo-m animated fadeIn">Nosotros</h1>
+                <div class="col-xs-12 juan">
+                    <img src="imgs/juan.png" alt="Juan Pablo Lozano" class="img-circle avatar" width="128">
+                    <h2 class="pacifico">Juan Pablo Lozano</h2>
+                    <p>
+                        Consultor SOA / Desarrollador Web
+                    </p>
+                    <p>
+                        Director Tecnico
+                    </p>
+                </div>
+                <div class="col-xs-12 separador visible-xs"></div>
+                <div class="col-xs-12 jonny">
+                    <img src="imgs/jonny.jpg" alt="Jonathan Sierra" class="img-circle avatar" width="128">
+                    <h2 class="pacifico">Jonathan Sierra</h2>
+                    <p>
+                        Programador / Analista Funcional
+                    </p>
+                    <p>
+                        Analista Funcional de Negocios
+                    </p>
+                </div>
+                <div class="col-xs-12 separador visible-xs"></div>
+                <div class="buy col-sm-12 text-center">
+                    <br>
+                    <br>
+                    <a href="#pagar"><i class="fa fa-usd" aria-hidden="true"></i> Compranos Una Cerveza</a>
+                </div>
+            </div>
+    </div>
+    
+    <!--FOOTER DESKTOP-->
+    <footer id="pie" class="container-fluid text-center">
+            <p>Copyright &copy; 
+                <script language="JavaScript" type="text/javascript">
+                    now = new Date
+                    theYear=now.getYear()
+                    if (theYear < 1900)
+                    theYear=theYear+1900
+                    document.write(theYear)
+                </script>
+                Todos los derechos reservados por Juan Pablo Lozano</p>
+    </footer>
 </body>
 </html>
