@@ -145,11 +145,10 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 }
 
 .ten-imagen-fondo {
-    background-image: url(../imgs/bg.jpg);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background: url(../imgs/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
