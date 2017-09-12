@@ -1,3 +1,7 @@
+html, body {
+  height: initial;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 }
