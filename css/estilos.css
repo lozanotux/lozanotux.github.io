@@ -30,6 +30,10 @@ body {
     font-size: 4em; 
 }
 
+.grande-m {
+    font-size: 4em; 
+}
+
 .inline-block {
 	float: none;
 	display: inline-block;
@@ -119,7 +123,6 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 
 .main {
     background-color: #444C5C;
-    background-image: url("../imgs/bg.jpg");
     color: #FFFFFF;
     float: none;
     margin-top: -134px;
@@ -151,6 +154,10 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 
 .margen-compensador {
     padding-top: 2em;
+}
+
+.margen-compensador-m {
+    padding-top: 1em;
 }
 
 .margen-titulo {
