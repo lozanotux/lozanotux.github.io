@@ -1,7 +1,3 @@
-html, body {
-  height: initial;
-}
-
 body {
 	font-family: 'Lato', sans-serif;
 }
@@ -146,6 +142,15 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
     padding: 0;
     top 0;
     height: 100%;
+}
+
+.ten-imagen-fondo {
+    background-image: url(../imgs/bg.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .sin-espacio-arriba {
