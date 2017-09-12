@@ -1,3 +1,5 @@
+html { overflow: scroll; }
+
 body {
 	font-family: 'Lato', sans-serif;
 }
@@ -149,7 +151,7 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
     background-color: transparent;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
     background-size: cover;
 }
 
