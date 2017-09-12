@@ -1,4 +1,6 @@
-html { overflow: scroll; }
+html, body { height: 100%; min-height: 100%; }
+
+.full-screen { height: 100%; min-height: 100%; }
 
 body {
 	font-family: 'Lato', sans-serif;
