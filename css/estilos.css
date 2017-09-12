@@ -144,14 +144,15 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 }
 
 .ten-imagen-fondo {
-    background: url(../imgs/bg.jpg) no-repeat center center fixed;
+    background: url(../imgs/bg.jpg);
     background-color: #444C5C;
+    background-repeat: no-repeat;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../imgs/bg.gif', sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../imgs/bg.jpg', sizingMethod='scale')";
+    zoom: 100%;
 }
 
 .sin-espacio-arriba {
