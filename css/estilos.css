@@ -149,7 +149,7 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
     background-color: transparent;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
 }
 
