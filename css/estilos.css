@@ -271,7 +271,7 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 }
 
 .se-azul {
-    color: #029BE8;
+    color: rgb(36, 180, 252);
 }
 
 .sin-decoracion {
@@ -283,28 +283,26 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 }
 
 .brillar-en-azul:hover {
-    color: #00A9FF;
+    color: rgb(80, 191, 247);
 }
 
 .justificado {
     text-align: justify;
 }
 
+.arriba-detodo {
+    z-index: 9999999;
+    position: relative;
+}
+
 /*
  * PERFILES
  */
-.juan {
-    
-}
-
-.jonny {
-    
-}
 
 .buy a {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     color: #fff;
-    background-color: #45D363;
+    background-color: rgb(40, 202, 75);
     background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
     background-image: -ms-linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
     background-image: -o-linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
@@ -320,7 +318,57 @@ box-shadow: inset 0px 32px 42px -28px rgba(0,0,0,0.75);
 }
 
 .buy a:hover {
-     background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.05) );
+    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.05) );
+}
+
+.lista-contactos {
+    width: 300px;
+    align-self: center;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 12px;
+    list-style: none;
+}
+
+.lista-contactos li {
+    content: '\2709';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.lista-contactos li i {
+    display: inline-flex;
+    margin-right: 12px;
+    
+}
+
+.lista-contactos li a {
+    font-size: 20px;
+    display: inline-flex;
+}
+
+/*
+ * PORTFOLIO
+ */
+
+.portfolio-table {
+    margin-top: 4em;
+}
+
+.portfolio-table thead {
+    background-color: #FFFFFF;
+    color: #444C5C;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left!important;
+}
+
+.portfolio-table tbody td {
+    text-align: left!important;
+}
+
+.portfolio-table tbody td img {
+    margin-right: 6px;
 }
 
 /*
